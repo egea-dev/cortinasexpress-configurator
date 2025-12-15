@@ -1,62 +1,20 @@
-# NeuralStories: Propuesta Campaña Cortinas
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-![Status](https://img.shields.io/badge/Status-Prototipo-yellow)
-![AI](https://img.shields.io/badge/Powered_by-Gemini-4285F4)
-![License](https://img.shields.io/badge/License-Proprietary-red)
+# Run and deploy your AI Studio app
 
-**NeuralStories: Propuesta Campaña Cortinas** es una solución generada con ayuda de inteligencia artificial (Google AI Studio) diseñada para [DESCRIBIR AQUÍ EL OBJETIVO PRINCIPAL: ej. automatizar la creación de copys, visualizar diseños de cortinas en interiores o gestionar la propuesta comercial de la campaña].
+This contains everything you need to run your app locally.
 
-Este proyecto busca optimizar el flujo de trabajo creativo mediante el uso de modelos de lenguaje avanzados.
+View your app in AI Studio: https://ai.studio/apps/drive/1FQlnRv8JjdWTVBHDkKcdroNjtq9MBYu0
 
-## 🚀 Funcionalidades (Previstas/Actuales)
+## Run Locally
 
-* **🤖 Generación de Contenido:** Creación automática de descripciones y narrativas para la campaña.
-* **🎨 Propuestas Visuales:** [Mencionar si hay generación de imágenes o maquetación].
-* **📊 Interfaz de Usuario:** [Describir si es una web, un dashboard o un script].
-* **⚡ Integración AI:** Conexión directa con la API de Gemini para procesamiento en tiempo real.
+**Prerequisites:**  Node.js
 
-## 🛠️ Requisitos Previos
 
-Para ejecutar este proyecto localmente, necesitarás:
-
-* Una API Key de Google (Gemini) activa.
-* [Node.js / Python] (Dependiendo de lo que contenga tu código fuente).
-* Un navegador web moderno.
-
-## 🔧 Instalación y Uso
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/tu-usuario/neuralstories-propuesta.git](https://github.com/tu-usuario/neuralstories-propuesta.git)
-    cd neuralstories-propuesta
-    ```
-
-2.  **Configurar Variables de Entorno:**
-    Crea un archivo `.env` y añade tu clave de API:
-    ```env
-    GOOGLE_API_KEY="tu-api-key-aqui"
-    ```
-
-3.  **Instalar dependencias:**
-    *(Ajusta este comando según sea npm o pip)*
-    ```bash
-    npm install
-    # o
-    pip install -r requirements.txt
-    ```
-
-4.  **Ejecutar:**
-    ```bash
-    npm run dev
-    # o
-    python main.py
-    ```
-
-## 📂 Estructura del Proyecto
-
-```text
-neuralstories-propuesta/
-├── src/               # Código fuente principal
-├── public/            # Archivos estáticos
-├── docs/              # Documentación de la campaña
-└── README.md          # Este archivo
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
