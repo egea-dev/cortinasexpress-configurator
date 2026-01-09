@@ -1,8 +1,8 @@
 # CortinasExpress Configurator
 
-React TypeScript Tailwind CSS Supabase Status
+React · TypeScript · Tailwind CSS · Supabase
 
-CortinasExpress Configurator es una plataforma de orquestacion de servicios de campo de alta fidelidad (Field Service Orchestrator). Esta disenada para cerrar la brecha entre la planificacion centralizada y la ejecucion operativa, con una interfaz dual que permite la gestion de ordenes de trabajo complejas y su ejecucion secuencial en campo mediante dispositivos moviles.
+CortinasExpress Configurator es una plataforma de orquestacion de servicios de campo de alta fidelidad (Field Service Orchestrator). Esta disenada para cerrar la brecha entre la planificacion centralizada y la ejecucion operativa, con una interfaz dual que permite gestionar ordenes de trabajo complejas y su ejecucion secuencial en campo mediante dispositivos moviles.
 
 El sistema destaca por su validacion contextual, guiando al operario paso a paso a traves de procedimientos tecnicos (mediciones, seleccion de tejidos y normativas) mientras mantiene una conexion simulada con sistemas de ingenieria para asegurar la viabilidad tecnica.
 
