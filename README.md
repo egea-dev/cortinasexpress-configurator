@@ -83,7 +83,7 @@ constants.ts          # Parametros tecnicos y umbrales
 types.ts              # Definiciones TypeScript (arquitectura de datos)
 admin/                # Backoffice
 supabase/             # SQL
-image/                # Assets usados
+public/image/         # Assets usados
 BULK/                 # Archivos no esenciales
 ```
 
